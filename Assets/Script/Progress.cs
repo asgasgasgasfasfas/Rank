@@ -12,7 +12,7 @@ public class Progress : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI textProgressData;
     [SerializeField]
-    private float progressTime;
+    private float progressTime; 
 
     public void Play(UnityAction action = null)
     {
